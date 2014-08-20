@@ -10,8 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
-
 gem 'bootstrap-sass'
+gem 'devise'
 
 #Gemas para usar en development y testing
 group :development, :test do
@@ -24,6 +24,7 @@ group :production do
      gem 'pg'	#Postgres
      gem 'rails_12factor'
 end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
