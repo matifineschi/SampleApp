@@ -83,5 +83,6 @@ Rails.application.configure do
   #Required by Heroku
   #Change this once you know your domain name "localhost:3000"
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  
 
 end
